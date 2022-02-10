@@ -11,7 +11,7 @@ import FeedbackContext from "../context/FeedbackContext"
 
 
 function FeedbackItem({ item }) {
-    const {handleDelete, editFeedback,feedbackEdit} = useContext(FeedbackContext)
+    const {handleDelete, editFeedback} = useContext(FeedbackContext)
 
   return (
     <Card>
